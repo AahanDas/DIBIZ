@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="paxel0014" name="testcases.CreateBinPlantation1" tests="6" failures="1" timestamp="9 Jul 2020 19:33:00 GMT" time="155.962" errors="0">
+  <testcase name="loginLogOut" time="11.313" classname="testcases.CreateBinPlantation1"/>
+  <testcase name="loginLogOut" time="51.646" classname="testcases.CreateNewDO">
+    <failure type="java.lang.RuntimeException" message="FAILED">
+      <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.enterById(GenericWrappers.java:150)
+	at pages.DeliveryOrderPage.enterRemarks(DeliveryOrderPage.java:23)
+	at testcases.CreateNewDO.loginLogOut(CreateNewDO.java:45)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="loginLogOut" time="11.646" classname="testcases.CreateNewWeighBridge"/>
+  <testcase name="loginLogOut" time="15.063" classname="testcases.CreateTicketPlantation"/>
+  <testcase name="loginLogOut" time="5.551" classname="testcases.TC001_LoginLogOut"/>
+  <testcase name="loginLogOut" time="10.215" classname="testcases.UpdateWeighBridge"/>
+</testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="testcases.CreateNewDO">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class>
+      <class name="testcases.CreateNewWeighBridge">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setValue"/>
+        </methods>
+      </class>
+      <class name="testcases.CreateTicketPlantation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setValue"/>
+        </methods>
+      </class>
+      <class name="testcases.UpdateWeighBridge">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+      <class name="testcases.CreateBinPlantation1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="setValue"/>
+        </methods>
+      </class>
+      <class name="testcases.TC001_LoginLogOut">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setValue"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

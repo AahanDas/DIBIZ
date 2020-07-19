@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.TC004_AddPartnerIfNotAvailable">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="loginLogOut" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="setValue"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC004_AddPartnerIfNotAvailable -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

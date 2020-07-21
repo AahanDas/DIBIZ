@@ -1,5 +1,7 @@
 package pages;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
@@ -77,6 +79,12 @@ public class HomePage extends DibizWrappers {
 		clickByXpath("//*[contains(text(), 'Production')]");
 		return new ProductionPage(driver, test);
 
+	}
+	
+	public HomePage verifyFeedBackSuccessMessage(String data) {
+		assertEquals(driver, data);
+		
+		return this;
 	}
 
 }

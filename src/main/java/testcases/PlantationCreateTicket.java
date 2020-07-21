@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.LoginPageDibiz;
 import wrappers.DibizWrappers;
 
-public class CreateTicketPlantation extends DibizWrappers {
+public class PlantationCreateTicket extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {

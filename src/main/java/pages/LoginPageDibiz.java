@@ -50,5 +50,17 @@ public class LoginPageDibiz extends DibizWrappers {
 		verifyTextContainsById("errorDiv", text);
 		return this;
 	}
+	
+	public AuditReportPage clickOnAuditReportsFromMenu() {
+		
+		clickByXpath("//*[contains(text(),'Audit Reports')]");
+		return new AuditReportPage(driver, test);
+	}
+	
+public FeedbackPage clickOnFeedbackFromMenu() {
+		
+		clickByXpath("//*[contains(text(),'Feedback')]");
+		return new FeedbackPage(driver, test);
+	}
 
 }

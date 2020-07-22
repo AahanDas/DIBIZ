@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pages.LoginPageDibiz;
 import wrappers.DibizWrappers;
 
-public class CreateReportCPOQuality extends DibizWrappers {
+public class PalmOilMillCreateReportCPOQuality extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {

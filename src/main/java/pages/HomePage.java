@@ -80,11 +80,23 @@ public class HomePage extends DibizWrappers {
 		return new ProductionPage(driver, test);
 
 	}
-	
+
 	public HomePage verifyFeedBackSuccessMessage(String data) {
-		assertEquals(driver, data);
-		
+		verifyTextByXpath("//*[contains(text(), 'Feedback Submitted')]", data);
+
 		return this;
+	}
+
+	public FeedbackPage clickOnFeedbackFromMenu() {
+
+		clickByXpath("//*[contains(text(),'Feedback')]");
+		return new FeedbackPage(driver, test);
+	}
+
+	public AuditReportPage clickOnAuditReportsFromMenu() {
+
+		clickByXpath("//*[contains(text(),'Audit Reports')]");
+		return new AuditReportPage(driver, test);
 	}
 
 }

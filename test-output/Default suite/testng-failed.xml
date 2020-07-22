@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.CreateNewDO">
+      <class name="testcases.PlantationAuditReport">
         <methods>
           <include name="beforeMethod"/>
-          <include name="setValue"/>
           <include name="loginLogOut" invocation-numbers="0"/>
           <include name="beforeTest"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
+          <include name="setValue"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
         </methods>
-      </class> <!-- testcases.CreateNewDO -->
+      </class> <!-- testcases.PlantationAuditReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

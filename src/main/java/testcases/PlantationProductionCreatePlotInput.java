@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 import pages.LoginPageDibiz;
 import wrappers.DibizWrappers;
 
-public class ProductionCreatePlotInput extends DibizWrappers {
+public class PlantationProductionCreatePlotInput extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "ProductionCreatePlotInput";
+		testCaseName = "Production CreatePlotInput for Plantation";
 		testDescription = "Production- Create PlotInput";
 		category = "smoke";
 		authors = "DrD";

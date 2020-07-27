@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 15 15:22:56 IST 2020</td>
+<td>Started on:</td><td>Mon Jul 27 12:53:03 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>374 seconds (374536 ms)</td>
+<tr><td>Total time:</td><td>239 seconds (239937 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,20 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TC004_AddPartnerIfNotAvailable.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.TC004_AddPartnerIfNotAvailable<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123, AutoMation1, FFB Dealer, Chennai, 8888888888, automation@gmail.com</td>
+<td title='testcases.PalmOilMillCreateNewDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateNewDO<br>Parameters: sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, Crude Palm Oil (#CPO), 88, Remarks, newRemarks</td>
 <td><div><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
-	at pages.AddPartner.&lt;init&gt;(AddPartner.java:16)
-	at pages.PartnerPage.clickOnAddPartner(PartnerPage.java:22)
-	at testcases.TC004_AddPartnerIfNotAvailable.loginLogOut(TC004_AddPartnerIfNotAvailable.java:28)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace789982400", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace789982400'><pre>java.lang.RuntimeException: FAILED
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:367)
+	at pages.NewDeliveryOrderDetailsPage.EnterSelectExpectedDeliveryDate(NewDeliveryOrderDetailsPage.java:23)
+	at testcases.PalmOilMillCreateNewDO.loginLogOut(PalmOilMillCreateNewDO.java:33)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1846982837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846982837'><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:33)
 	at utils.Reporter.reportStep(Reporter.java:43)
-	at pages.AddPartner.&lt;init&gt;(AddPartner.java:16)
-	at pages.PartnerPage.clickOnAddPartner(PartnerPage.java:22)
-	at testcases.TC004_AddPartnerIfNotAvailable.loginLogOut(TC004_AddPartnerIfNotAvailable.java:28)
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:367)
+	at pages.NewDeliveryOrderDetailsPage.EnterSelectExpectedDeliveryDate(NewDeliveryOrderDetailsPage.java:23)
+	at testcases.PalmOilMillCreateNewDO.loginLogOut(PalmOilMillCreateNewDO.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,8 +115,51 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>8</td>
-<td>testcases.TC004_AddPartnerIfNotAvailable@3108bc</td></tr>
+<td>11</td>
+<td>testcases.PalmOilMillCreateNewDO@5ec0a365</td></tr>
+<tr>
+<td title='testcases.PalmOilMillFeedback.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillFeedback<br>Parameters: sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted</td>
+<td><div><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:269)
+	at pages.HomePage.verifyFeedBackSuccessMessage(HomePage.java:85)
+	at testcases.PalmOilMillFeedback.loginLogOut(PalmOilMillFeedback.java:31)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1419125235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1419125235'><pre>java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:269)
+	at pages.HomePage.verifyFeedBackSuccessMessage(HomePage.java:85)
+	at testcases.PalmOilMillFeedback.loginLogOut(PalmOilMillFeedback.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>38</td>
+<td>testcases.PalmOilMillFeedback@71423665</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,80 +169,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.TC001_LoginLogOut.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.TC001_LoginLogOut<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123</td>
-<td></td>
-<td>8</td>
-<td>testcases.TC001_LoginLogOut@2ac273d3</td></tr>
-<tr>
-<td title='testcases.CreateBinPlantation.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateBinPlantation<br>Parameters: sime.lee@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Appala Naidu Marie, 8888, Chennai, H4A, 2nd Phase, 20, 30, 40, 4 wheel, TN 4444, 2, 10</td>
-<td></td>
-<td>28</td>
-<td>testcases.CreateBinPlantation@71423665</td></tr>
-<tr>
-<td title='testcases.CreateNewDO.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateNewDO<br>Parameters: sales@klk.com, passwordklk123, Timur Oil Mills Sdn.Bhd., KA 01 2020, DrD, Road, Transport, Crude Palm Oil (#CPO), 455, he is, new</td>
-<td></td>
-<td>31</td>
-<td>testcases.CreateNewDO@20398b7c</td></tr>
-<tr>
-<td title='testcases.CreateNewWeighBridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateNewWeighBridge<br>Parameters: sales@klk.com, passwordklk123, 1010, 80, 12345</td>
-<td></td>
-<td>14</td>
-<td>testcases.CreateNewWeighBridge@6fc6f14e</td></tr>
-<tr>
-<td title='testcases.CreateReportCPOQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateReportCPOQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B</td>
-<td></td>
-<td>14</td>
-<td>testcases.CreateReportCPOQuality@56235b8e</td></tr>
-<tr>
-<td title='testcases.CreateReportFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateReportFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678</td>
+<td title='testcases.PalmOilMillAddPartner.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillAddPartner<br>Parameters: sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail.com</td>
 <td></td>
 <td>17</td>
-<td>testcases.CreateReportFFBQuality@3632be31</td></tr>
+<td>testcases.PalmOilMillAddPartner@5ce81285</td></tr>
 <tr>
-<td title='testcases.CreateTicketPlantation.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateTicketPlantation<br>Parameters: sime.lee@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), Sime Lee, 8888.0, Chennai, H4A, 2nd Phase, 20, 30, 40</td>
+<td title='testcases.PalmOilMillAuditReport.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillAuditReport<br>Parameters: sales@gmas.com, passwordgmas123</td>
 <td></td>
-<td>17</td>
-<td>testcases.CreateTicketPlantation@5abca1e0</td></tr>
+<td>6</td>
+<td>testcases.PalmOilMillAuditReport@78c03f1f</td></tr>
 <tr>
-<td title='testcases.CreateWorkSmallHolder.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.CreateWorkSmallHolder<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123, Fresh fruit bunch, 443, 775, Area4, Block4, Bin4</td>
-<td></td>
-<td>14</td>
-<td>testcases.CreateWorkSmallHolder@2286778</td></tr>
-<tr>
-<td title='testcases.DeleteWorkSmallHolder.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.DeleteWorkSmallHolder<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123</td>
-<td></td>
-<td>10</td>
-<td>testcases.DeleteWorkSmallHolder@4e9ba398</td></tr>
-<tr>
-<td title='testcases.ProductionCreatePlotInput.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.ProductionCreatePlotInput<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB), 8888, 1000</td>
-<td></td>
-<td>15</td>
-<td>testcases.ProductionCreatePlotInput@6d7b4f4c</td></tr>
-<tr>
-<td title='testcases.TC002_GoToWorkDetailModule.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.TC002_GoToWorkDetailModule<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123</td>
-<td></td>
-<td>9</td>
-<td>testcases.TC002_GoToWorkDetailModule@527740a2</td></tr>
-<tr>
-<td title='testcases.TC003_SubmitWorkDetail.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.TC003_SubmitWorkDetail<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123, Fresh fruit bunch, 443, 775, Area4, Block4, Bin4</td>
-<td></td>
-<td>14</td>
-<td>testcases.TC003_SubmitWorkDetail@13a5fe33</td></tr>
-<tr>
-<td title='testcases.UpdateWeighBridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.UpdateWeighBridge<br>Parameters: sales@klk.com, passwordklk123, 101, 10, 4321</td>
+<td title='testcases.PalmOilMillCreateNewWeighBridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateNewWeighBridge<br>Parameters: sales@gmas.com, passwordgmas123, 8888, 888, 98076</td>
 <td></td>
 <td>11</td>
-<td>testcases.UpdateWeighBridge@370736d9</td></tr>
+<td>testcases.PalmOilMillCreateNewWeighBridge@4fe3c938</td></tr>
 <tr>
-<td title='testcases.UT3_006_SmallHolderCreateWork.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.UT3_006_SmallHolderCreateWork<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123, Fresh fruit bunch, 19871, 20141, Automation, Testing, Demo</td>
+<td title='testcases.PalmOilMillCreateReportCPOQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateReportCPOQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B</td>
 <td></td>
-<td>14</td>
-<td>testcases.UT3_006_SmallHolderCreateWork@5f9d02cb</td></tr>
+<td>12</td>
+<td>testcases.PalmOilMillCreateReportCPOQuality@5383967b</td></tr>
 <tr>
-<td title='testcases.UT3_006_SmallHolderEditWork.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.UT3_006_SmallHolderEditWork<br>Parameters: smallholder@dibizglobal.com, helloSmallHolder123, 2020, 202021, AutomationUpdated, TestingUpdated, DemoUpdated</td>
+<td title='testcases.PalmOilMillCreateReportFFBQuality.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillCreateReportFFBQuality<br>Parameters: sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678</td>
 <td></td>
-<td>14</td>
-<td>testcases.UT3_006_SmallHolderEditWork@63753b6d</td></tr>
+<td>13</td>
+<td>testcases.PalmOilMillCreateReportFFBQuality@2ac273d3</td></tr>
+<tr>
+<td title='testcases.PalmOilMillProductTrace.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTrace<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
+<td></td>
+<td>9</td>
+<td>testcases.PalmOilMillProductTrace@20398b7c</td></tr>
+<tr>
+<td title='testcases.PalmOilMillProductTraceGraph.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTraceGraph<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
+<td></td>
+<td>9</td>
+<td>testcases.PalmOilMillProductTraceGraph@6fc6f14e</td></tr>
+<tr>
+<td title='testcases.PalmOilMillProductTraceTree.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillProductTraceTree<br>Parameters: sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)</td>
+<td></td>
+<td>9</td>
+<td>testcases.PalmOilMillProductTraceTree@56235b8e</td></tr>
+<tr>
+<td title='testcases.PalmOilMillUpdateWeighBridge.loginLogOut()'><b>loginLogOut</b><br>Test class: testcases.PalmOilMillUpdateWeighBridge<br>Parameters: sales@gmas.com, passwordgmas123, 8889, 999, 98076</td>
+<td></td>
+<td>10</td>
+<td>testcases.PalmOilMillUpdateWeighBridge@3632be31</td></tr>
 </table><p>
 </body>
 </html>

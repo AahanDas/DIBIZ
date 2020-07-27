@@ -12,7 +12,7 @@ public class UpdateWeighBridgePage extends DibizWrappers {
 		this.driver = driver;
 		this.test = test;
 
-		if (!verifyTitle("DIBIZ")) {
+		if (!verifyDynamicTitle("DIBIZ")) {
 			reportStep("This is not Update WeighBridge Page", "FAIL");
 		}
 

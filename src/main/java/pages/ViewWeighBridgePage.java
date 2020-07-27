@@ -12,7 +12,7 @@ public class ViewWeighBridgePage extends DibizWrappers {
 		this.driver = driver;
 		this.test = test;
 
-		if (!verifyTitle("DIBIZ")) {
+		if (!verifyDynamicTitle("DIBIZ")) {
 			reportStep("This is not View Weigh Bridge Page", "FAIL");
 		}
 

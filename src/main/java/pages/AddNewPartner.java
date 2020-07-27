@@ -23,11 +23,11 @@ public class AddNewPartner extends DibizWrappers {
 		return this;
 	}
 
-	public AddNewPartner selectOrgnisationType(String OrgType) {
-		// selectVisibileTextByXPath("//*[contains(text(), 'FFB Dealer')]", OrgType);
+	public AddNewPartner selectOrgnisationType(String data) {
+		
 		clickById("select-drop-orgType__input");
-		clickByXpath("//*[contains(text(), 'FFB Dealer')]");
-
+		enterByXpath("//*[@type='search']", data);
+		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 		return this;
 	}
 

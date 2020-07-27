@@ -20,7 +20,7 @@ public class SourcedBatchDetailsPage  extends DibizWrappers {
 	
 	public SourcedBatchDetailsPage clickOnUserLogo() {
 
-		clickByXpath("//*[@class='TopNavbarFragments__UserProfile-adzq1e-0 bNdfRr']");
+		clickByXpath("//*[@class='TopNavbarFragments__UserProfile-adzq1e-0 bnwzZQ']");
 		return this;
 	}
 	public LoginPageDibiz clickLogOut() {

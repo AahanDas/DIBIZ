@@ -35,13 +35,13 @@ public class CreatePlotInputPage extends DibizWrappers {
 	}
 
 	public CreatePlotInputPage enterQuantityUsed(String data) {
-		enterById("input-quantity-entity-delivery-order-JiIR2T8VUciejpik", data);
+		enterById("input-quantity-entity-delivery-order-Iwphsgoa9GX3fvjK", data);
 
 		return this;
 	}
 
 	public CreatePlotInputPage enterProductionLine(String data) {
-		enterById("input-production-entity-delivery-order-JiIR2T8VUciejpik", data);
+		enterById("input-production-entity-delivery-order-Iwphsgoa9GX3fvjK", data);
 
 		return this;
 	}

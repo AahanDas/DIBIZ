@@ -38,7 +38,7 @@ public class HomePage extends DibizWrappers {
 	}
 
 	public PartnerPage clickPartnerModule() {
-		clickByXpath("//*[contains(text(),'Your suppliers and customers here')]");
+		clickByXpath("//*[contains(text(),'Partner Management')]");
 		return new PartnerPage(driver, test);
 
 	}
@@ -97,6 +97,13 @@ public class HomePage extends DibizWrappers {
 
 		clickByXpath("//*[contains(text(),'Audit Reports')]");
 		return new AuditReportPage(driver, test);
+	}
+	
+	public ProductTracePage clickOnProductTraceFromMenu() {
+		clickByXpath("//*[contains(text(),'Product Trace')]");
+		return new ProductTracePage(driver, test);
+		
+		
 	}
 
 }

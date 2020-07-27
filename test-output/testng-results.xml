@@ -1,33 +1,520 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="40" total="51" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16203" started-at="2020-07-21T19:00:17Z" finished-at="2020-07-21T19:00:33Z">
+  <suite name="Suite" duration-ms="239937" started-at="2020-07-27T07:23:03Z" finished-at="2020-07-27T07:27:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16203" started-at="2020-07-21T19:00:17Z" finished-at="2020-07-21T19:00:33Z">
-      <class name="testcases.PlantationAuditReport">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="beforeSuite" is-config="true" duration-ms="346" started-at="2020-07-22T00:30:17Z" finished-at="2020-07-22T00:30:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-07-22T00:30:17Z" finished-at="2020-07-22T00:30:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-22T00:30:17Z" finished-at="2020-07-22T00:30:17Z">
+    <test name="Test" duration-ms="239937" started-at="2020-07-27T07:23:03Z" finished-at="2020-07-27T07:27:03Z">
+      <class name="testcases.PalmOilMillProductTraceTree">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillProductTraceTree@56235b8e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:56:28Z" finished-at="2020-07-27T12:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValue -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="beforeMethod" is-config="true" duration-ms="7927" started-at="2020-07-22T00:30:18Z" finished-at="2020-07-22T00:30:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillProductTraceTree@56235b8e]" name="beforeMethod" is-config="true" duration-ms="6609" started-at="2020-07-27T12:56:28Z" finished-at="2020-07-27T12:56:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="loginLogOut" duration-ms="6772" started-at="2020-07-22T00:30:26Z" data-provider="fetchData" finished-at="2020-07-22T00:30:32Z">
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillProductTraceTree@56235b8e]" name="loginLogOut" duration-ms="9687" started-at="2020-07-27T12:56:35Z" data-provider="fetchData" finished-at="2020-07-27T12:56:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sime.lee@gmas.com ]]>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillProductTraceTree@56235b8e]" name="afterMethod" is-config="true" duration-ms="680" started-at="2020-07-27T12:56:45Z" finished-at="2020-07-27T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillProductTraceTree -->
+      <class name="testcases.PalmOilMillProductTraceGraph">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillProductTraceGraph@6fc6f14e]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:56:11Z" finished-at="2020-07-27T12:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillProductTraceGraph@6fc6f14e]" name="beforeMethod" is-config="true" duration-ms="6681" started-at="2020-07-27T12:56:11Z" finished-at="2020-07-27T12:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillProductTraceGraph@6fc6f14e]" name="loginLogOut" duration-ms="9582" started-at="2020-07-27T12:56:18Z" data-provider="fetchData" finished-at="2020-07-27T12:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillProductTraceGraph@6fc6f14e]" name="afterMethod" is-config="true" duration-ms="663" started-at="2020-07-27T12:56:28Z" finished-at="2020-07-27T12:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillProductTraceGraph -->
+      <class name="testcases.PalmOilMillCreateReportCPOQuality">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillCreateReportCPOQuality@5383967b]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:54:28Z" finished-at="2020-07-27T12:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillCreateReportCPOQuality@5383967b]" name="beforeMethod" is-config="true" duration-ms="6941" started-at="2020-07-27T12:54:28Z" finished-at="2020-07-27T12:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillCreateReportCPOQuality@5383967b]" name="loginLogOut" duration-ms="12077" started-at="2020-07-27T12:54:35Z" data-provider="fetchData" finished-at="2020-07-27T12:54:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org-003-20200710]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[99900199922]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Tank B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillCreateReportCPOQuality@5383967b]" name="afterMethod" is-config="true" duration-ms="651" started-at="2020-07-27T12:54:47Z" finished-at="2020-07-27T12:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillCreateReportCPOQuality -->
+      <class name="testcases.PalmOilMillCreateNewDO">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillCreateNewDO@5ec0a365]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:53:50Z" finished-at="2020-07-27T12:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillCreateNewDO@5ec0a365]" name="beforeMethod" is-config="true" duration-ms="7086" started-at="2020-07-27T12:53:50Z" finished-at="2020-07-27T12:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillCreateNewDO@5ec0a365]" name="loginLogOut" duration-ms="11324" started-at="2020-07-27T12:53:57Z" data-provider="fetchData" finished-at="2020-07-27T12:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dibiz Global]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KA 08 2020]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DrD]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Road and Rail]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Transport for Dibiz]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Crude Palm Oil (#CPO)]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Remarks]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[newRemarks]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:367)
+	at pages.NewDeliveryOrderDetailsPage.EnterSelectExpectedDeliveryDate(NewDeliveryOrderDetailsPage.java:23)
+	at testcases.PalmOilMillCreateNewDO.loginLogOut(PalmOilMillCreateNewDO.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillCreateNewDO@5ec0a365]" name="afterMethod" is-config="true" duration-ms="665" started-at="2020-07-27T12:54:08Z" finished-at="2020-07-27T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillCreateNewDO -->
+      <class name="testcases.PalmOilMillUpdateWeighBridge">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillUpdateWeighBridge@3632be31]" name="setValue" is-config="true" duration-ms="1" started-at="2020-07-27T12:56:45Z" finished-at="2020-07-27T12:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillUpdateWeighBridge@3632be31]" name="beforeMethod" is-config="true" duration-ms="6685" started-at="2020-07-27T12:56:45Z" finished-at="2020-07-27T12:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillUpdateWeighBridge@3632be31]" name="loginLogOut" duration-ms="10236" started-at="2020-07-27T12:56:52Z" data-provider="fetchData" finished-at="2020-07-27T12:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8889]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[98076]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillUpdateWeighBridge@3632be31]" name="afterMethod" is-config="true" duration-ms="661" started-at="2020-07-27T12:57:02Z" finished-at="2020-07-27T12:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillUpdateWeighBridge -->
+      <class name="testcases.PalmOilMillCreateReportFFBQuality">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillCreateReportFFBQuality@2ac273d3]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:54:48Z" finished-at="2020-07-27T12:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillCreateReportFFBQuality@2ac273d3]" name="beforeMethod" is-config="true" duration-ms="6562" started-at="2020-07-27T12:54:48Z" finished-at="2020-07-27T12:54:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillCreateReportFFBQuality@2ac273d3]" name="loginLogOut" duration-ms="13356" started-at="2020-07-27T12:54:55Z" data-provider="fetchData" finished-at="2020-07-27T12:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DO-org-003-20200710]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fresh fruit bunch]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8888]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillCreateReportFFBQuality@2ac273d3]" name="afterMethod" is-config="true" duration-ms="652" started-at="2020-07-27T12:55:08Z" finished-at="2020-07-27T12:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillCreateReportFFBQuality -->
+      <class name="testcases.PalmOilMillProductTrace">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillProductTrace@20398b7c]" name="setValue" is-config="true" duration-ms="1" started-at="2020-07-27T12:55:54Z" finished-at="2020-07-27T12:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillProductTrace@20398b7c]" name="beforeMethod" is-config="true" duration-ms="6538" started-at="2020-07-27T12:55:54Z" finished-at="2020-07-27T12:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillProductTrace@20398b7c]" name="loginLogOut" duration-ms="9672" started-at="2020-07-27T12:56:01Z" data-provider="fetchData" finished-at="2020-07-27T12:56:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fresh fruit bunch (#FFB)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillProductTrace@20398b7c]" name="afterMethod" is-config="true" duration-ms="671" started-at="2020-07-27T12:56:11Z" finished-at="2020-07-27T12:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillProductTrace -->
+      <class name="testcases.PalmOilMillAddPartner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="beforeSuite" is-config="true" duration-ms="546" started-at="2020-07-27T12:53:03Z" finished-at="2020-07-27T12:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-07-27T12:53:03Z" finished-at="2020-07-27T12:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="setValue" is-config="true" duration-ms="1" started-at="2020-07-27T12:53:03Z" finished-at="2020-07-27T12:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="beforeMethod" is-config="true" duration-ms="12945" started-at="2020-07-27T12:53:04Z" finished-at="2020-07-27T12:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="loginLogOut" duration-ms="17641" started-at="2020-07-27T12:53:17Z" data-provider="fetchData" finished-at="2020-07-27T12:53:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NewOil Mill org]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Palm Oil Mill]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9898989898]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="afterMethod" is-config="true" duration-ms="678" started-at="2020-07-27T12:53:35Z" finished-at="2020-07-27T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-07-27T12:57:03Z" finished-at="2020-07-27T12:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.PalmOilMillAddPartner@5ce81285]" name="afterSuite" is-config="true" duration-ms="429" started-at="2020-07-27T12:57:03Z" finished-at="2020-07-27T12:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.PalmOilMillAddPartner -->
+      <class name="testcases.PalmOilMillCreateNewWeighBridge">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillCreateNewWeighBridge@4fe3c938]" name="setValue" is-config="true" duration-ms="2" started-at="2020-07-27T12:54:09Z" finished-at="2020-07-27T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillCreateNewWeighBridge@4fe3c938]" name="beforeMethod" is-config="true" duration-ms="7147" started-at="2020-07-27T12:54:09Z" finished-at="2020-07-27T12:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillCreateNewWeighBridge@4fe3c938]" name="loginLogOut" duration-ms="11120" started-at="2020-07-27T12:54:16Z" data-provider="fetchData" finished-at="2020-07-27T12:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8888]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[888]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[98076]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillCreateNewWeighBridge@4fe3c938]" name="afterMethod" is-config="true" duration-ms="643" started-at="2020-07-27T12:54:27Z" finished-at="2020-07-27T12:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillCreateNewWeighBridge -->
+      <class name="testcases.PalmOilMillAuditReport">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillAuditReport@78c03f1f]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:53:35Z" finished-at="2020-07-27T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillAuditReport@78c03f1f]" name="beforeMethod" is-config="true" duration-ms="7132" started-at="2020-07-27T12:53:35Z" finished-at="2020-07-27T12:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginLogOut(java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillAuditReport@78c03f1f]" name="loginLogOut" duration-ms="6635" started-at="2020-07-27T12:53:43Z" data-provider="fetchData" finished-at="2020-07-27T12:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
               </value>
             </param>
             <param index="1">
@@ -39,19 +526,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginLogOut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="afterMethod" is-config="true" duration-ms="1144" started-at="2020-07-22T00:30:32Z" finished-at="2020-07-22T00:30:33Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillAuditReport@78c03f1f]" name="afterMethod" is-config="true" duration-ms="642" started-at="2020-07-27T12:53:49Z" finished-at="2020-07-27T12:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-07-22T00:30:33Z" finished-at="2020-07-22T00:30:33Z">
+      </class> <!-- testcases.PalmOilMillAuditReport -->
+      <class name="testcases.PalmOilMillFeedback">
+        <test-method status="PASS" signature="setValue()[pri:0, instance:testcases.PalmOilMillFeedback@71423665]" name="setValue" is-config="true" duration-ms="0" started-at="2020-07-27T12:55:09Z" finished-at="2020-07-27T12:55:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.PlantationAuditReport@2038ae61]" name="afterSuite" is-config="true" duration-ms="210" started-at="2020-07-22T00:30:33Z" finished-at="2020-07-22T00:30:34Z">
+        </test-method> <!-- setValue -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.PalmOilMillFeedback@71423665]" name="beforeMethod" is-config="true" duration-ms="6714" started-at="2020-07-27T12:55:09Z" finished-at="2020-07-27T12:55:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.PlantationAuditReport -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="loginLogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.PalmOilMillFeedback@71423665]" name="loginLogOut" duration-ms="38221" started-at="2020-07-27T12:55:15Z" data-provider="fetchData" finished-at="2020-07-27T12:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sales@gmas.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordgmas123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Feedback message]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Feedback Submitted]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:269)
+	at pages.HomePage.verifyFeedBackSuccessMessage(HomePage.java:85)
+	at testcases.PalmOilMillFeedback.loginLogOut(PalmOilMillFeedback.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.PalmOilMillFeedback@71423665]" name="afterMethod" is-config="true" duration-ms="691" started-at="2020-07-27T12:55:54Z" finished-at="2020-07-27T12:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.PalmOilMillFeedback -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

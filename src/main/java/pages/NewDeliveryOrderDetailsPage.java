@@ -57,11 +57,8 @@ public class NewDeliveryOrderDetailsPage extends DibizWrappers {
 	}
 	public NewDeliveryOrderDetailsPage selectProductFromDropDown(String data) {
 		clickById("select-drop-productSelection__input");
-		//enterByXpath("//*[@class='StyledTextInput-sc-1x30a0s-0 bkOazG']", data);
-		clickByXpath("//*[contains(text(),'Crude Palm Oil (#CPO)')]");
-		
-		//selectVisibileTextById("select-drop-productSelection__input", data);
-
+		enterByXpath("//*[@type='search']", data);
+		clickByXpath("//*[@class='StyledText-sc-1sadyjn-0 oKAxv']");
 		return this;
 	}
 	public NewDeliveryOrderDetailsPage enterQuantity(String data) {

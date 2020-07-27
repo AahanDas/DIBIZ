@@ -10,8 +10,8 @@ public class PalmOilMillCreateReportCPOQuality extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "CreateReportCPOQuality";
-		testDescription = "Create Report for CPOQuality";
+		testCaseName = "CreateReportCPOQuality Palm Oil";
+		testDescription = "Create Report for CPOQuality Palm Oil";
 		category = "smoke";
 		authors = "DrD";
 		browserName = "chrome";

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Hariharan\AppData\Local\Temp\testng-eclipse--2140451369\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>J:\Personal\Dibiz\Automation\DibizAutomation\testngpara.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,80 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillCreateNewDO" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, ...)">loginLogOut(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillFeedback" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted)">loginLogOut(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.PlantationAuditReport" hash-for-method="loginLogOut(sime.lee@gmas.com , passwordgmas123)">loginLogOut(sime.lee@gmas.com , passwordgmas123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillAuditReport" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123)">loginLogOut(sales@gmas.com, passwordgmas123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillAddPartner" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail....)">loginLogOut(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillProductTraceGraph" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillProductTraceTree" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillCreateNewWeighBridge" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, 8888, 888, 98076)">loginLogOut(sales@gmas.com, passwordgmas123, 8888, 888, 98076)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillCreateReportCPOQuality" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B)">loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillUpdateWeighBridge" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, 8889, 999, 98076)">loginLogOut(sales@gmas.com, passwordgmas123, 8889, 999, 98076)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillProductTrace" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.PalmOilMillCreateReportFFBQuality" hash-for-method="loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678)">loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,142 +175,695 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.PlantationAuditReport</span>
+              <img src="failed.png"/>
+              <span class="class-name">testcases.PalmOilMillFeedback</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginLogOut(sime.lee@gmas.com , passwordgmas123)">
-                  </a> <!-- loginLogOut(sime.lee@gmas.com , passwordgmas123) -->
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted) -->
                   <span class="method-name">loginLogOut</span>
-                  <span class="parameters">(sime.lee@gmas.com , passwordgmas123)</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.verifyTextByXpath(GenericWrappers.java:269)
+	at pages.HomePage.verifyFeedBackSuccessMessage(HomePage.java:85)
+	at testcases.PalmOilMillFeedback.loginLogOut(PalmOilMillFeedback.java:31)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.PalmOilMillCreateNewDO</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, ...)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, ...) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, Crude Palm Oil (#CPO), 88, Remarks, newRemarks)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:33)
+	at utils.Reporter.reportStep(Reporter.java:43)
+	at wrappers.GenericWrappers.clickById(GenericWrappers.java:367)
+	at pages.NewDeliveryOrderDetailsPage.EnterSelectExpectedDeliveryDate(NewDeliveryOrderDetailsPage.java:23)
+	at testcases.PalmOilMillCreateNewDO.loginLogOut(PalmOilMillCreateNewDO.java:33)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillProductTrace</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillProductTraceTree</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillAuditReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillProductTraceGraph</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB)) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillCreateNewWeighBridge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, 8888, 888, 98076)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, 8888, 888, 98076) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, 8888, 888, 98076)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillAddPartner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail....)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail....) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillCreateReportFFBQuality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillCreateReportCPOQuality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PalmOilMillUpdateWeighBridge</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLogOut(sales@gmas.com, passwordgmas123, 8889, 999, 98076)">
+                  </a> <!-- loginLogOut(sales@gmas.com, passwordgmas123, 8889, 999, 98076) -->
+                  <span class="method-name">loginLogOut</span>
+                  <span class="parameters">(sales@gmas.com, passwordgmas123, 8889, 999, 98076)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Hariharan\AppData\Local\Temp\testng-eclipse--2140451369\testng-customsuite.xml</span>
+            <span class="header-content">J:\Personal\Dibiz\Automation\DibizAutomation\testngpara.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.PlantationAuditReport&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillAddPartner&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillAuditReport&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillCreateNewDO&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillCreateNewWeighBridge&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillCreateReportCPOQuality&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillCreateReportFFBQuality&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillFeedback&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillProductTrace&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillProductTraceGraph&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillProductTraceTree&quot;/&gt;
+      &lt;class name=&quot;testcases.PalmOilMillUpdateWeighBridge&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginLogOut')
-data.setCell(0, 2, 'testcases.PlantationAuditReport')
-data.setCell(0, 3, 6772);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 2, 'testcases.PalmOilMillFeedback')
+data.setCell(0, 3, 38221);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginLogOut')
+data.setCell(1, 2, 'testcases.PalmOilMillAddPartner')
+data.setCell(1, 3, 17641);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginLogOut')
+data.setCell(2, 2, 'testcases.PalmOilMillCreateReportFFBQuality')
+data.setCell(2, 3, 13356);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginLogOut')
+data.setCell(3, 2, 'testcases.PalmOilMillCreateReportCPOQuality')
+data.setCell(3, 3, 12077);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginLogOut')
+data.setCell(4, 2, 'testcases.PalmOilMillCreateNewDO')
+data.setCell(4, 3, 11324);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginLogOut')
+data.setCell(5, 2, 'testcases.PalmOilMillCreateNewWeighBridge')
+data.setCell(5, 3, 11120);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginLogOut')
+data.setCell(6, 2, 'testcases.PalmOilMillUpdateWeighBridge')
+data.setCell(6, 3, 10236);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginLogOut')
+data.setCell(7, 2, 'testcases.PalmOilMillProductTraceTree')
+data.setCell(7, 3, 9687);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginLogOut')
+data.setCell(8, 2, 'testcases.PalmOilMillProductTrace')
+data.setCell(8, 3, 9672);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginLogOut')
+data.setCell(9, 2, 'testcases.PalmOilMillProductTraceGraph')
+data.setCell(9, 3, 9582);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginLogOut')
+data.setCell(10, 2, 'testcases.PalmOilMillAuditReport')
+data.setCell(10, 3, 6635);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">40 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillProductTrace</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillProductTraceTree</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillAuditReport</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillProductTraceGraph</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillCreateNewWeighBridge</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillFeedback</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillCreateNewDO</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillCreateReportFFBQuality</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillUpdateWeighBridge</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.PalmOilMillCreateReportCPOQuality</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.PlantationAuditReport</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.PalmOilMillAddPartner</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">348 ms</span>
+                <span class="method-start">548 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setValue</span>
-                <span class="method-start">352 ms</span>
+                <span class="method-start">566 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">705 ms</span>
+                <span class="method-start">1464 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginLogOut(sime.lee@gmas.com , passwordgmas123)</span>
-                <span class="method-start">8632 ms</span>
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, NewOil Mill org, Palm Oil Mill, Chennai, 9898989898, Chennai@gmail....)</span>
+                <span class="method-start">14409 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">15405 ms</span>
+                <span class="method-start">32051 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillAuditReport</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">32732 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123)</span>
+                <span class="method-start">39950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">46586 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillCreateNewDO</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">47229 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">47319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, Dibiz Global, KA 08 2020, DrD, Road and Rail, Transport for Dibiz, ...)</span>
+                <span class="method-start">54405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">65830 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillCreateNewWeighBridge</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">66495 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">66568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, 8888, 888, 98076)</span>
+                <span class="method-start">73715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">84836 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillCreateReportCPOQuality</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">85479 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">85615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, 99900199922, 10, 5, Tank B)</span>
+                <span class="method-start">92556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">104633 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillCreateReportFFBQuality</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">105285 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">105404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, DO-org-003-20200710, Fresh fruit bunch, 8888, 345, 456, 678)</span>
+                <span class="method-start">111966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">125323 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillFeedback</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">125976 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">126127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, Work, Feedback message, Feedback Submitted)</span>
+                <span class="method-start">132841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">171062 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillProductTrace</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">171753 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">171843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                <span class="method-start">178381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">188054 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillProductTraceGraph</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">188726 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">188765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                <span class="method-start">195446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">205029 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillProductTraceTree</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">205693 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">205734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, Fresh fruit bunch (#FFB))</span>
+                <span class="method-start">212344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">222032 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillUpdateWeighBridge</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setValue</span>
+                <span class="method-start">222712 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">222899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLogOut(sales@gmas.com, passwordgmas123, 8889, 999, 98076)</span>
+                <span class="method-start">229584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">239821 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PalmOilMillAddPartner</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">16549 ms</span>
+                <span class="method-start">240482 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">16559 ms</span>
+                <span class="method-start">240629 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

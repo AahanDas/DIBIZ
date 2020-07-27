@@ -10,7 +10,7 @@ public class PlantationCreateBin extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "CreateBinPlantation";
+		testCaseName = "CreateBin Plantation";
 		testDescription = "Create Bin for Plantation";
 		category = "smoke";
 		authors = "DrD";

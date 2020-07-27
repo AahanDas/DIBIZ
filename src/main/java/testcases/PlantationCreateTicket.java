@@ -10,7 +10,7 @@ public class PlantationCreateTicket extends DibizWrappers {
 
 	@BeforeClass
 	public void setValue() {
-		testCaseName = "CreateTicketPlantation";
+		testCaseName = "CreateTicket Plantation";
 		testDescription = "Create Ticket for Plantation";
 		category = "smoke";
 		authors = "DrD";
